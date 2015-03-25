@@ -36,6 +36,15 @@ npm install
 $(npm bin)/gulp serve
 ```
 
+then
+
+```
+open http://localhost:8080/?url=http://localhost:3000/swagger_api/?spec={SOME_CONVERSATION_NAME}
+```
+
+where {SOME_CONVERSATION_NAME} is the name of a conversation
+
+
 ### Download
 You can use the swagger-ui code AS-IS!  No need to build or recompile--just clone this repo and use the pre-built files in the `dist` folder.  If you like swagger-ui as-is, stop here.
 
