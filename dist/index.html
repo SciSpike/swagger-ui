@@ -36,13 +36,11 @@
         supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
         onComplete: function(swaggerApi, swaggerUi){
           if(typeof initOAuth == "function") {
-            /*
             initOAuth({
-              clientId: "your-client-id",
+              clientId: "1",
               realm: "your-realms",
               appName: "your-app-name"
             });
-            */
           }
           $('pre code').each(function(i, e) {
             hljs.highlightBlock(e)
