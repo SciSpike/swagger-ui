@@ -27,6 +27,13 @@ Swagger UI Version | Release Date | Swagger Spec compatibility | Notes | Status
 
 ## How to Use It
 
+### Run It Locally
+
+```
+npm install
+$(npm bin)/gulp serve
+```
+
 ### Download
 You can use the swagger-ui code AS-IS!  No need to build or recompile--just clone this repo and use the pre-built files in the `dist` folder.  If you like swagger-ui as-is, stop here.
 
