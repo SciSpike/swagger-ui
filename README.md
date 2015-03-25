@@ -30,6 +30,8 @@ Swagger UI Version | Release Date | Swagger Spec compatibility | Notes | Status
 ### Run It Locally
 
 ```
+git clone git@github.com:SciSpike/swagger-ui.git
+cd swagger-ui
 npm install
 $(npm bin)/gulp serve
 ```
